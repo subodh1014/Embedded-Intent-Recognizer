@@ -7,9 +7,10 @@ This is a simple command line intent recognition tool. This also includes a goog
 ```
 Step 1 : Clone Git Repository -> https://github.com/subodh1014/Embedded-Intent-Recognizer.git
 Step 2 : Give Below Commands :
+	 a) Download GoogleTest Folder from Github(In the downloaded Repository folder) : https://www.github.com/google/googletest.git
 	 a) mkdir build ( To create build Folder )
 	 b) cd build (Go inside the build Folder)
-	 c) cmake.. ( The cmake command creates many files in current working directory(build folder in our case) and among them              			      a file called Makefile, which has rules about which files to compile/build/copy/write/whatever and how to do it.)
+	 c) cmake.. ( The cmake command to build the code)
 	 d) make (This command used to make application )
 	
 Step 3 : Running the Application & Googletest:
@@ -36,6 +37,6 @@ Intent: Get Fact
 * Compiler: g++ 9.3.0
 * Build Tool: CMake 3.16.3
 
-### Note: I have uploaded the built binaries in the folder `build` for reference.
+### Note: I have uploaded the built binaries in the folder `build_binaries` for reference.
 
 
