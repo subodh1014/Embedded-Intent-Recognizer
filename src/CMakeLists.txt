@@ -1,0 +1,12 @@
+########################################
+### CMakeLists.txt for Source Folder ###
+########################################
+
+SET(BINARY ${CMAKE_PROJECT_NAME})
+
+FILE(GLOB_RECURSE SOURCES LIST_DIRECTORIES TRUE *.h *.cpp)
+
+SET(SOURCES ${SOURCES})
+
+ADD_EXECUTABLE(${BINARY}_run ${SOURCES})
+ADD_LIBRARY(${BINARY}_lib STATIC ${SOURCES})
