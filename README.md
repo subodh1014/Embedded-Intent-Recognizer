@@ -6,14 +6,14 @@ This is a simple command line intent recognition tool. This also includes a goog
 # How to execute
 ```
 Step 1 : Clone Git Repository -> https://github.com/subodh1014/Embedded-Intent-Recognizer.git
-Step 2 : Give Below Commands :
-	 a) Download GoogleTest Folder from Github(In the downloaded Repository folder) : https://www.github.com/google/googletest.git
+Step 2 : Download GoogleTest Folder from Github(In the downloaded Repository folder) : https://www.github.com/google/googletest.git
+Step 3 : Give Below Commands :
 	 a) mkdir build ( To create build Folder )
 	 b) cd build (Go inside the build Folder)
 	 c) cmake.. ( The cmake command to build the code)
 	 d) make (This command used to make application )
 	
-Step 3 : Running the Application & Googletest:
+Step 4 : Running the Application & Googletest:
 	 * IntentRecogntion :`build\src\IntentRecognizer_run`
 	 * Gtest: `build\test\IntentRecognizer_tst`
 ```
@@ -40,3 +40,10 @@ Intent: Get Fact
 ### Note: I have uploaded the built binaries in the folder `build_binaries` for reference.
 
 
+#Please Note:
+```
+
+The implemented method here in this Repository is not the only way we can implement IntentRecognizer.
+We can Implement this by using map <key , value> pair in C++ also.
+
+```
